@@ -5,7 +5,7 @@ import Register from "./pages/Register"
 import Home from "./pages/Home"
 import FeedbackPage from "./pages/Feedback"
 import NotFound from "./pages/NotFound"
-import ProtectedRoute from "./components/ProtectedRoute"
+// import ProtectedRoute from "./components/ProtectedRoute"
 import Layout from "./components/Layout/Layout"
 
 function Logout() {
@@ -23,14 +23,15 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route
+          {/* <Route
             path="/"
             element={
               <ProtectedRoute>
                 <Home />
               </ProtectedRoute>
             }
-          />
+          /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
           <Route path="/feedback" element={<FeedbackPage />} />
