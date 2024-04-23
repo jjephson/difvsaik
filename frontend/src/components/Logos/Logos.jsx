@@ -1,17 +1,18 @@
 import React from "react";
-import "./styles.css"
+import Box from "../Box";
 import { aik_large, dif_large } from "../Images";
+
+import "./styles.css"
 
 const Logos = () => {
     return (
-        <section className="logos">
-            <section className="inner">
+        <Box>
+            <section className="logos">
                 <img src={dif_large} alt="DIF" />
                 <img src={aik_large} alt="AIK" />
             </section>
-        </section>
+        </Box>
     );
 }
 
 export default Logos
-

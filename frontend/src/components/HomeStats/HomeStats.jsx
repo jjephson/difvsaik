@@ -1,7 +1,9 @@
 import React from "react";
-import "./styles.css"
 import Box from "../Box";
 import { aik_small, dif_small } from "../Images";
+
+import "./styles.css"
+
 
 const HomeStats = () => {
     return (
@@ -28,6 +30,4 @@ const HomeStats = () => {
     );
 }
 
-
 export default HomeStats
-
