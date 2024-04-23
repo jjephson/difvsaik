@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #ede8e8;
+    color: #0f2d37;
+    /* background-size: cover; */
+    /* background-image: url(../../assets/bg.jpg); */
+}

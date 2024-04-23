@@ -7,8 +7,10 @@ import aik from "./../../assets/aik.png";
 const Logos = () => {
     return (
         <section className="logos">
-            <img src={dif} alt="DIF" />
-            <img src={aik} alt="AIK" />
+            <section className="inner">
+                <img src={dif} alt="DIF" />
+                <img src={aik} alt="AIK" />
+            </section>
         </section>
     );
 }
